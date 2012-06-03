@@ -14,6 +14,7 @@ Difference from original:
 - grouped glyphs on demo page, for convenience
   (and synced order with other iconic fonts)
 - changed css glyphs names, to be more semantic
+- partially realligned to middle line (need more work)
 
 License
 -------
