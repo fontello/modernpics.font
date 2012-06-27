@@ -5,8 +5,8 @@ meta:
   homepage: http://thedesignoffice.org/project/modern-pictograms/
   email: info@johncaserta.com
   twitter: https://twitter.com/johncaserta
-  licence: SIL
-  licence_url: http://scripts.sil.org/OFL
+  license: SIL
+  license_url: http://scripts.sil.org/OFL
 
   css_prefix: "icon-"
   columns: 4
