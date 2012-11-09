@@ -12,9 +12,9 @@ meta:
   columns: 4
 
 transform:
-  baseline: 0.25
+  baseline: 0.5
   rescale: 1.25
-  offset: -0.05
+  # offset: -0.05
 
 font:
   version: "1.0"
@@ -28,8 +28,8 @@ font:
 
   copyright: Copyright (c) 2012 by John Caserta. All rights reserved.
 
-  ascent: 800
-  descent: 200
+  ascent: 850
+  descent: 150
   weight: Normal
 
 
@@ -77,11 +77,11 @@ glyphs:
     from: 0x0067
     search:
 
-  - css: video
-    code: 0x1f3ac
-    uid: 3f0r3y17tle74mzaafsx8frnp2nu36gg
-    from: 0x0050
-    search: [movie, video, film]
+  #- css: video
+  #  code: 0x1f3ac
+  #  uid: 3f0r3y17tle74mzaafsx8frnp2nu36gg
+  #  from: 0x0050
+  #  search: [movie, video, film]
 
   - css: video-alt
     code: 0x1f3a6
@@ -146,17 +146,19 @@ glyphs:
     from: 0x002b
     search: [plus]
 
-  - css: help-circle
-    code: 0xe704
-    uid: uda7inu4er17zsorrfic7n0l6fvukfqn
-    from: 0x003f
-    search: [help, question]
+  # ??? broken internal contour
 
-  - css: info-circle
-    code: 0xe705
-    uid: 769oa3oy9cfucktpbod5cqmth9ioofxd
-    from: 0x003d
-    search: [info]
+  #- css: help-circle
+  #  code: 0xe704
+  #  uid: uda7inu4er17zsorrfic7n0l6fvukfqn
+  #  from: 0x003f
+  #  search: [help, question]
+
+  #- css: info-circle
+  #  code: 0xe705
+  #  uid: 769oa3oy9cfucktpbod5cqmth9ioofxd
+  #  from: 0x003d
+  #  search: [info]
 
 
   - css: home
@@ -539,11 +541,11 @@ glyphs:
     search: [chart, pie, diagram]
 
 
-  - css: money
-    code: 0x1f4b0
-    uid: qdrxlsrgibi1n48dmygz3rp6ciczkjfs
-    from: 0x0024
-    search: [money]
+  #- css: money
+  #  code: 0x1f4b0
+  #  uid: qdrxlsrgibi1n48dmygz3rp6ciczkjfs
+  #  from: 0x0024
+  #  search: [money]
 
   - css: dollar
     code: 0x1f4b5
