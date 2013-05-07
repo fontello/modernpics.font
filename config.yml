@@ -8,7 +8,7 @@ meta:
   license: SIL
   license_url: http://scripts.sil.org/OFL
 
-  css_prefix: "icon-"
+  css_prefix_text: "icon-"
   columns: 4
 
 transform:
@@ -29,7 +29,7 @@ font:
   copyright: Copyright (c) 2012 by John Caserta. All rights reserved.
 
   ascent: 850
-  descent: 150
+  descent: -150
   weight: Normal
 
 
@@ -260,6 +260,18 @@ glyphs:
     from: 0x0021
     search: [attention, warning, alert]
 
+  - css: info
+    code: 0x3d
+    uid: a66a6e088038a1881d532b6675bf8412
+    from: 0x003d
+    search: [info]
+
+  - css: question
+    code: 0x3f
+    uid: 23d1c53bc15ca452df9453450e94a19c
+    from: 0x3f
+    search: [question, help]
+
 
   - css: location
     code: 0xe724
@@ -423,7 +435,7 @@ glyphs:
     uid: gypcofts1tkouwkxbv8d33eanqpreyy9
     from: 0x003e
     search: [arrow, right]
-  - css: glyph78
+  - css: up-dir
     code: 0x25b4
     uid: 6ipws8y9gej6vbloufvhi5qux7rluf64
     from: 0x002d
@@ -572,6 +584,18 @@ glyphs:
     from: 0x003b
     search: [semicolon]
 
+  - css: squares
+    code: 0x29c9
+    uid: a58a5236139282f6c7f906634233157a
+    from: 0x29c9
+    search: [squares]
+
+  - css: money
+    code: 0x24
+    uid: 212ab54aac31030950fec3e2448ebee9
+    from: 0x24
+    search: [money, dollar]
+
 
   - css: facebook
     code: 0xf300
@@ -602,5 +626,11 @@ glyphs:
     code: 0xf314
     uid: gq8m9lqx2hhwxf7rz30adbr37rthzirq
     from: 0x0055
+    search: [twitter]
+
+  - css: youtube
+    code: 0xf315
+    uid: 897cd776b90c71cb80b467fd9f509775
+    from: 0x50
     search: [twitter]
 
