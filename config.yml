@@ -617,7 +617,6 @@ glyphs:
     code: 0xf303
     uid: h7disbowd4v177zjlsi6anz5nkka08uy
     from: 0x0074
-    search:
     search: [twitter]
 
   - css: twitter-rect
